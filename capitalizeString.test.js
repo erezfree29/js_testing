@@ -5,12 +5,5 @@ test('capitalizes a string', () => {
 });
 
 test('does not accpet a non string argument', () => {
-    expect(() => capitalizeString(2)).toThrow(Error);
-
+  expect(() => capitalizeString(2)).toThrow(Error);
 });
-
-
-
-
-
-

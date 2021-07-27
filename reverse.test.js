@@ -5,7 +5,5 @@ test('goo should equal to og', () => {
 });
 
 test('encyclopedia should equal to aidepolcycne', () => {
-    expect(reverse('encyclopedia')).toBe('aidepolcycne');
-  });
-
-
+  expect(reverse('encyclopedia')).toBe('aidepolcycne');
+});
